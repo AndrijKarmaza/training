@@ -176,21 +176,76 @@
 
 
 
-// // Оголошена функція 
+// // Оголошена функція
 // findMatches()
 
-// // Виклик 
+// // Виклик
 // findMatches([1, 2, 3, 4, 5], 1, 8, 2, 7)
 // повертає[1, 2]
 
-// // Виклик 
+// // Виклик
 // findMatches([4, 89, 17, 36, 2], 8, 17, 89, 27, 2)
 // повертає[17, 89, 2]
 
-// // Виклик 
+// // Виклик
 // findMatches([10, 24, 41, 6, 9, 19], 24, 11, 9, 23, 41)
 // повертає[24, 9, 41]
 
-// // Виклик 
+// // Виклик
 // findMatches([63, 11, 8, 29], 4, 7, 16)
 // повертає[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+// const atTheOldToad = {
+//   potions: [
+//     { name: "Speed potion", price: 460 },
+//     { name: "Dragon breath", price: 780 },
+//     { name: "Stone skin", price: 520 },
+//   ],
+//   // Change code below this line
+//     getPotions() {
+//       console.table(this.potions);
+//     return this.potions;
+//   },
+//   addPotion(newPotion) {
+//     if (this.potions.includes(newPotion)) {
+//       return `Error! Potion ${newPotion} is already in your inventory!`;
+//     }
+
+//     this.potions.push(newPotion);
+//   },
+//   removePotion(potionName) {
+//     const potionIndex = this.potions.indexOf(potionName);
+
+//     if (potionIndex === -1) {
+//       return `Potion ${potionName} is not in inventory!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1);
+//   },
+//   updatePotionName(oldName, newName) {
+//     const potionIndex = this.potions.indexOf(oldName);
+
+//     if (potionIndex === -1) {
+//       return `Potion ${oldName} is not in inventory!`;
+//     }
+
+//     this.potions.splice(potionIndex, 1, newName);
+//   },
+//   // Change code above this line
+// };
+
+
+
+// atTheOldToad.getPotions();
